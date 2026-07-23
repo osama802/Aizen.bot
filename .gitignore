@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Session & Cache
+.wwebjs_auth/
+.wwebjs_cache/
+session/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Favorites
+favorites.json
+
+# IDE
+.vscode/
+.idea/
+*.sublime-*
+
+# Runtime
+dist/
+build/
